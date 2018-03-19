@@ -1,0 +1,11 @@
+#logo{
+  display: block;
+  height: 10rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+header{
+  background-color: gray;
+  max-height: 20rem;
+}
