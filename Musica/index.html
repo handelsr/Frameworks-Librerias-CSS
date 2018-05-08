@@ -12,7 +12,7 @@
   <body style=Background-color:rgb(121,57,58)>
     <div class="container">
 
-        <header style="Background-color:rgb(255,255,255)">
+        <header style="Background-color:rgb(255,255,255); margin-bottom:1em; max-height:37rem" >
             <div class="row">
                 <div class="col-md-3 col-xs-3 col-sm-3">
                     <img id="logo" src="img/musica.jpg" alt="Logo">
@@ -28,20 +28,17 @@
                     </figure>
                 </div>
             </div>
-            <div style="background-color:rgb(252,174,109)">
-                <ul class="nav nabvar" style="text-align:center">
-                    <li class="col-md-2 col-xs-12"><a class="" href="#">Inicio</a></li>
-                    <li class="col-md-2 col-xs-12"><a class="nav-link" href="#">Grupos</a></li>
-                    <li class="col-md-2 col-xs-12"><a class="nav-link" href="#">Artistas</a></li>
-                    <li class="col-md-2 col-xs-12"><a class="nav-link" href="#">Top 10</a></li>
-                    <li class="col-md-2 col-xs-12"><a class="nav-link" href="#">Letras</a></li>
-                    <li class="col-md-2 col-xs-12"><a class="nav-link" href="#">Acordes</a></li>
-                </ul>
-            </div>
-                
+                    <ul class="nav nav-navbar nav-justified" style="text-align:center; background-color:rgb(252,174,109);">
+                        <li class=""><a class="" href="#">Inicio</a></li>
+                        <li class=""><a class="nav-link" href="#">Grupos</a></li>
+                        <li class=""><a class="nav-link" href="#">Artistas</a></li>
+                        <li class=""><a class="nav-link" href="#">Top 10</a></li>
+                        <li class=""><a class="nav-link" href="#">Letras</a></li>
+                        <li class=""><a class="nav-link" href="#">Acordes</a></li>
+                    </ul>
         </header>
 
-        <section style="background-color:white; padding:2em; margin-top:1em;">
+        <section style="background-color:white; padding:2em;">
             <div class="row">
                 <div class="col-md-9">
                     <div class="row">
@@ -54,10 +51,10 @@
                         </div>
                     </div>
                     <div class="row" style="margin-top:1em">
-                        <div class="col-xs-2 form-group" style="padding-right:0px;">
-                            <h1 style="margin-top:0px; font-size:6em"><span class="glyphicon glyphicon-user"></span></h1>
+                        <div class="col-xs-2 form-group" style="padding-right:0px; text-align:right">
+                            <p style="margin-top:0px;"><span style="font-size:600%" class="glyphicon glyphicon-user"></span></p>
                         </div>
-                        <div class="col-xs-10 form-group" style="padding-left:0px;">
+                        <div class="col-xs-10 form-group">
 
                             <textarea placeholder="Comentario" class="form-control" rows="4" cols="90"></textarea>
                         </div>
@@ -73,16 +70,16 @@
                         </div>
                     </div>
                     <div class="row" style="margin-top:1em">
-                        <div class="col-xs-2 form-group" style="padding-right:0px;">
-                            <h1 style="margin-top:0px; font-size:6em"><span class="glyphicon glyphicon-user"></span></h1>
+                        <div class="col-xs-2 form-group" style="padding-right:0px; text-align:right">
+                            <p style="margin-top:0px;"><span style="font-size:600%" class="glyphicon glyphicon-user"></span></p>
                         </div>
-                            <div class="col-xs-10 form-group" style="padding-left:0px;">
+                            <div class="col-xs-10 form-group">
 
                                 <textarea placeholder="Comentario" class="form-control" rows="4" cols="90"></textarea>
                             </div>
                         </div>
                 </div>
-                <div class="col-md-3 hidden-xs hidden-sm">
+                <div class="col-xs-3 hidden-xs">
                     <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
                         <input id="buscar" type="text" class="form-control" name="Buscar" placeholder="Buscar por...">
